@@ -5,6 +5,6 @@ This implementation uses fastai's UNet model, where the CNN backbone (e.g. ResNe
 ## Data
 In this notebook, we use a toy dataset specified in DATA_PATH which consists of 129 images of 4 classes of beverage containers {can, carton, milk bottle, water bottle}. For each image, a pixel-wise ground-truth mask is provided for training and evaluation.
 ## Model Performance
-![](https://github.com/billumillu/Portfolio/blob/main/images/seg_output1.jpg)
+![](/images/seg_output1.jpg)
 ## Test Image
-![](https://github.com/billumillu/Portfolio/blob/main/images/seg_output.jpg)
+![](/images/seg_output.jpg)
