@@ -5,9 +5,9 @@ This implementation uses fastai's UNet model, where the CNN backbone (e.g. ResNe
 ## Data
 In this notebook, we use a toy dataset specified in DATA_PATH which consists of 129 images of 4 classes of beverage containers {can, carton, milk bottle, water bottle}. For each image, a pixel-wise ground-truth mask is provided for training and evaluation.
 ## Model Performance
-![](./images/seg_output1.jpg)
+![](https://github.com/billumillu/Portfolio/images/seg_output1.jpg)
 ## Test Image
-![](./images/seg_output.jpg)
+![](https://github.com/billumillu/Portfolio/images/seg_output.jpg)
 
 # [Object Detection | FasterRCNN](https://github.com/billumillu/Object-Detection-FasterRCNN)
 This repository uses torchvision's Faster R-CNN implementation which has been shown to work well on a wide variety of Computer Vision problems.
@@ -23,4 +23,4 @@ I used a custom pre-trained model. It was trained on the COCO dataset (250,000 p
 
 My goal for this project was to get a simple model that will give me the pose for a human body. I plan to later use this in another project. The idea is to classify people based on their pose into - attackers, victims. This could help in preventing/controlling crimes. I currently need to learn about video analytics, and collect data (crime videos) for this project. Then, I will integrate it with this model.
 ## Output
-![](./images/pose.jpg)
+![](https://github.com/billumillu/Portfolio/images/pose.jpg)
