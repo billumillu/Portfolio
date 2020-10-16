@@ -25,7 +25,7 @@ My goal for this project was to get a simple model that will give me the pose fo
 ## Output
 ![](/images/pose.jpg)
 
-# [Face Verification & Recognition](https://github.com/billumillu/Face-Verification-and-Recognition)
+# [Face Verification & Recognition | FaceNet](https://github.com/billumillu/Face-Verification-and-Recognition)
 
 Face recognition problems commonly fall into two categories:
 
