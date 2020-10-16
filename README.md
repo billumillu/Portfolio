@@ -24,3 +24,30 @@ I used a custom pre-trained model. It was trained on the COCO dataset (250,000 p
 My goal for this project was to get a simple model that will give me the pose for a human body. I plan to later use this in another project. The idea is to classify people based on their pose into - attackers, victims. This could help in preventing/controlling crimes. I currently need to learn about video analytics, and collect data (crime videos) for this project. Then, I will integrate it with this model.
 ## Output
 ![](/images/pose.jpg)
+
+# [Face Verification & Recognition](https://github.com/billumillu/Face-Verification-and-Recognition)
+
+Face recognition problems commonly fall into two categories:
+
+* Face Verification - "is this the claimed person?". For example, at some airports, you can pass through customs by letting a system scan your passport and then verifying that you (the person carrying the passport) are the correct person. A mobile phone that unlocks using your face is also using face verification. This is a 1:1 matching problem.
+* Face Recognition - "who is this person?". For example, employees entering the office without needing to otherwise identify themselves. This is a 1:K matching problem.
+
+FaceNet learns a neural network that encodes a face image into a vector of 128 numbers. By comparing two such vectors, you can then determine if two pictures are of the same person. We use FaceNet's pre-trained model.
+
+## Data
+Own database consisting of 12 individuals, an image for each.
+
+## Outputs
+camera_0.jpg is a picture of Younes.
+
+![](/images/camera_0.jpg)
+### Face Verification
+![](/images/face_ver.jpg)
+
+Gives the output as 'True' or 'False'
+### Face Recognition
+![](/images/face_rec.jpg)
+
+Gives the name of the person.
+
+# 
